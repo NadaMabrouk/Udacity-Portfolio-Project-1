@@ -1,0 +1,117 @@
+body{
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	color: #2d3c49;
+}
+
+header{
+	border-bottom:2px solid #7d97ad;
+	margin-bottom: 2%;
+}
+
+h1,h5{
+	font-style: normal;
+	font-weight: 500;
+}
+
+.details{
+	padding-right: 0;
+}
+
+.logo{
+	padding-left: 0;
+	margin-top: 3%;
+}
+
+.logo img{
+	height: 55px;
+	width: 55px;
+}
+
+.container{
+	width: 65vw;
+}
+
+.main-section-img{
+	margin-bottom: 2%;
+}
+
+.featured-work-title{
+	margin-left: 10px;
+	color:#7d97ad;	
+}
+.projects{
+	margin-top: 2%;
+}
+footer{
+	margin-top: 2%;
+	border-top: 2px solid  #7d97ad;
+}
+
+footer > ul{
+	list-style: none;
+	margin: 2% auto;
+	width: 250px;
+}
+
+footer > ul > li{
+	display: inline;
+}
+
+footer > ul > li > a{
+	text-decoration: none;
+}
+.circle{
+	padding: 10px;
+	width: 40px;
+    font-size: 20px;
+	background:#fff;
+	text-align: center;
+	border-radius: 20px;
+	border:1px solid;
+}
+
+.fa-facebook{
+	color: #3b5897;
+	border-color: #3b5897;
+}
+
+.fa-facebook:hover{
+	background-color: #3b5897;
+}
+
+.fa-linkedin-square{
+	color: #0e78aa;
+	border-color: #0e78aa;
+}
+
+.fa-linkedin-square:hover{
+	background-color: #0e78aa;
+}
+
+.fa-github{
+	color: #333333;
+	border-color: #333333;
+}
+
+.fa-github:hover{
+	background-color: #333333;
+}
+
+.fa-facebook:hover,
+.fa-linkedin-square:hover,
+.fa-github:hover{
+	color: #ffffff;
+}
+
+@media screen and (max-width: 768px) and (min-width: 597px) {
+	.logo{
+		width: 	20%;
+	}
+	.details{
+		width: 80%;
+	}
+	
+}
+
+
+
